@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply p-0 bg-cyan-50 px-10;
+	}
+	h1 {
+		@apply py-5 text-xl font-black block text-gray-400;
+	}
+	input,
+	textarea {
+		@apply border-2 rounded-md px-2 py-2 w-8/12;
+	}
+}
+
+@layer utilities {
+	.btn {
+		@apply font-bold text-gray-900 rounded-md mx-2 py-2 px-2 bg-orange-500 border-gray-900 border-2 hover:bg-orange-600;
+	}
+}

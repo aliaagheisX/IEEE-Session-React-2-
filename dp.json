@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "heading": "hello world in js",
+      "body": "console.log('hello')"
+    },
+    {
+      "body": "aliaa",
+      "heading": "aliaa",
+      "id": 2
+    }
+  ],
+  "tasks": [
+    {
+      "body": "aliaa",
+      "isCompleted": false,
+      "id": 12
+    },
+    {
+      "body": "Finish",
+      "isCompleted": false,
+      "id": 13
+    }
+  ]
+}

@@ -1,9 +1,27 @@
 # IEEE React Session
 
+#### youtube playlist
+https://www.youtube.com/playlist?list=PL53HdtFIehli9YXokYdHDPj3voyXHYP8X
+#### notion link
+https://living-pull-611.notion.site/IEEE-React-Session-cb387e330b7545f98620518e1b37ecab
+
+#### Some Extensions on VsCode
 - ****ES7+ React/Redux/React-Native snippets****
 - ** ****Tailwind CSS IntelliSense****
 - ****React PropTypes Generate****
 - ****Prettier - Code formatter****
+
+#### References
+- [json-server doc](https://www.npmjs.com/package/json-server)
+- [tailwind cheat sheet](https://tailwindcomponents.com/cheatsheet/)
+- [React Router official Tutorial](https://reactrouter.com/en/main/start/tutorial)
+- [React Memo](https://www.robinwieruch.de/react-memo/)
+- [React useMemo](https://www.robinwieruch.de/react-usememo-hook/)
+- [React useCallback](https://www.robinwieruch.de/react-usecallback-hook/)
+- [useReducer example](https://www.youtube.com/watch?v=w9ghRG9Foiw&t=304s) 
+- [useReducer Code](https://www.robinwieruch.de/react-usereducer-hook/)
+- [custom hooks example useClipboard](https://www.freecodecamp.org/news/how-to-create-react-hooks/)
+- [propTypes React](https://www.freecodecamp.org/news/how-to-use-proptypes-in-react/)
 
 # Outline
 
@@ -88,8 +106,8 @@
 
 | Method  | Routes |
 | --- | --- |
-| GET - POST | http://localhost:3000/posts |
-| GET - PUT | PATCH | DELETE | http://localhost:3000/posts/1 |
+| GET-POST | http://localhost:3000/posts |
+| GET-PUT | PATCH | DELETE | http://localhost:3000/posts/1 |
 | GET | http://localhost:3000/tasks?body=finish%20IEEE%20session |
 | GET | http://localhost:3000/tasks?_page=1&_limit=2 |
 | etc…. | there other functions [search, slice, sort, greater than…] ⇒ https://www.npmjs.com/package/json-server |

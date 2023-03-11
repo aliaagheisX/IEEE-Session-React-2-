@@ -88,8 +88,8 @@
 
 | Method  | Routes |
 | --- | --- |
-| GET | POST | http://localhost:3000/posts |
-| GET | PUT | PATCH | DELETE | http://localhost:3000/posts/1 |
+| GET - POST | http://localhost:3000/posts |
+| GET - PUT | PATCH | DELETE | http://localhost:3000/posts/1 |
 | GET | http://localhost:3000/tasks?body=finish%20IEEE%20session |
 | GET | http://localhost:3000/tasks?_page=1&_limit=2 |
 | etc…. | there other functions [search, slice, sort, greater than…] ⇒ https://www.npmjs.com/package/json-server |
